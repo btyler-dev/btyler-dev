@@ -1,4 +1,4 @@
-# Tyler Bednar
+Tyler Bednar
 
 Full-stack web engineer focused on modern development practices and cloud infrastructure.
 
