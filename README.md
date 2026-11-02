@@ -1,23 +1,22 @@
-## Tyler Bednar
+I am Tyler Bednar
 
-**Natural Language Processing Engineer**
+**NLP & Language Models Engineer**
 
-### Research Areas
+**Specialization Areas:**
 
-**1. Document Understanding**
-- Implemented BERT-based classification achieving 96% accuracy
-- Named entity recognition across multiple languages
-- Semantic document clustering for organization
+**Document Understanding**
+- BERT-based classification (96% accuracy)
+- Named entity recognition across languages
+- Semantic document clustering
 
-**2. Text Representation Learning**
+**Text Representation Learning**
 - Fine-tuned transformer models for domain-specific tasks
-- Built custom tokenizers for technical domain
-- Evaluated embedding quality through downstream tasks
+- Custom tokenizers for specialized domains
+- Embedding quality evaluation through downstream tasks
 
-**3. Semantic Search Systems**
-- Vector similarity matching with sub-100ms latency
+**Semantic Search Systems**
+- Vector similarity matching (sub-100ms latency)
 - Hybrid search combining BM25 and semantic methods
-- Query expansion and re-ranking strategies
+- Query expansion and ranking optimization
 
-### Publications & Interests
-Working on efficient language models for resource-constrained environments. Interested in multimodal representations and cross-lingual transfer learning.
+Current work: Efficient language models for resource-constrained environments, multimodal representations, cross-lingual transfer.
