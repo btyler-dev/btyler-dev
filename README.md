@@ -1,11 +1,5 @@
-# I am Tyler Bednar
+# Tyler Bednar
 
-## Focus Areas
-Full-Stack Development, TypeScript, Node.js, Cloud Architecture
+Full-stack web developer with experience building scalable applications using modern frameworks and cloud infrastructure.
 
-## Connect
-- GitHub: [@btyler-dev](https://github.com/btyler-dev)  
-- LinkedIn: [Profile](https://linkedin.com/in/btyler-dev)
-
----
-*Building solutions that matter.*
+**Stack**: TypeScript, React, Node.js, PostgreSQL, AWS, Docker
