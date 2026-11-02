@@ -1,19 +1,23 @@
-# I am Tyler Bednar
+## Tyler Bednar
 
-**Software Engineer**
+**Natural Language Processing Engineer**
 
-## Focus Areas
-Full-Stack Development, TypeScript, Node.js, Natural Language Processing, Text Analytics, Semantic Search
+### Research Areas
 
-## ML Experience
-- Implemented NLP pipelines for document classification achieving 95% accuracy with transformer models
-- Built semantic search systems using embeddings and vector databases for content retrieval
-- Developed text preprocessing and tokenization systems handling multiple languages and domains
-- Created sentiment analysis and named entity recognition models for business intelligence applications
+**1. Document Understanding**
+- Implemented BERT-based classification achieving 96% accuracy
+- Named entity recognition across multiple languages
+- Semantic document clustering for organization
 
-## Connect
-- GitHub: [@btyler-dev](https://github.com/btyler-dev)  
-- LinkedIn: [Profile](https://linkedin.com/in/btyler-dev)
+**2. Text Representation Learning**
+- Fine-tuned transformer models for domain-specific tasks
+- Built custom tokenizers for technical domain
+- Evaluated embedding quality through downstream tasks
 
----
-*Building solutions that matter.*
+**3. Semantic Search Systems**
+- Vector similarity matching with sub-100ms latency
+- Hybrid search combining BM25 and semantic methods
+- Query expansion and re-ranking strategies
+
+### Publications & Interests
+Working on efficient language models for resource-constrained environments. Interested in multimodal representations and cross-lingual transfer learning.
