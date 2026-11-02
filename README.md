@@ -1,5 +1,7 @@
-# Tyler Bednar
+Tyler Bednar
 
-Full-stack web developer with experience building scalable applications using modern frameworks and cloud infrastructure.
+Full-stack web engineer building modern applications
 
-**Stack**: TypeScript, React, Node.js, PostgreSQL, AWS, Docker
+**Technical foundation**: TypeScript · React · Node.js · PostgreSQL · AWS · Docker
+
+Problem solver. Learner. Builder.
