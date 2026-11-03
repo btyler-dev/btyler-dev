@@ -1,57 +1,55 @@
-# Tyler Bednar
+## tyler bednar
+*forward deployed engineer · ai/ml*
 
-**NLP & Language Models Engineer**
 
-## Specialization
+**I train, fine-tune and serve models, then make them fast.** For 10+ years I've taken machine learning from notebook to production: forecasting and recommendations first, then deep learning for NLP and computer vision, and today mostly open-weight LLMs, fine-tuned with LoRA, QLoRA and RLHF and served with vLLM and Triton. I own the MLOps around all of it, on AWS, Azure and GCP.
 
-Natural language processing systems ranging from document understanding and text representation learning to semantic search infrastructure. Building systems that extract meaning from unstructured text and power intelligent search experiences.
 
-## Research Areas
+| 🧪 prototype | 🏋️ train | 📏 evaluate | 🚀 serve | 📡 monitor |
+|:-:|:-:|:-:|:-:|:-:|
+| notebook, baseline, eval set | distributed, tracked, reproducible | offline metrics, then A/B | batched, quantized, autoscaled | drift, latency, retrain triggers |
 
-### 📚 Document Understanding
 
-Beyond simple text classification, creating systems that truly understand document content and context.
+### what changes when I ship it
 
-**Implementation Details:**
-- Fine-tuned BERT models achieving 96% accuracy on document classification tasks
-- Multilingual named entity recognition handling 10+ languages simultaneously
-- Semantic document clustering organizing documents by meaning rather than keyword matching
-- Topic modeling and document similarity assessment
 
-**Applications:** Content organization, document routing, information extraction, document categorization
+```diff
+@@ loraloom · fine-tuning @@
+- a one-off training script for every new domain model
++ one YAML spec → 4-bit QLoRA on Ray → eval gate → versioned adapter in MLflow
 
-### 🔤 Text Representation Learning
 
-How we represent text determines what models can learn. This is foundational work that impacts everything downstream.
+@@ servo · inference @@
+- LLMs and classic deep learning models on separate stacks
++ vLLM and Triton behind one API, autoscaled on queue depth to a p95 latency budget
 
-**Approaches:**
-- Fine-tuned transformer models adapted for domain-specific language and terminology
-- Custom tokenizers built for specialized domains (legal, medical, technical)
-- Embedding quality evaluation through downstream task performance
-- Transfer learning strategies maximizing pre-trained model capabilities
 
-**Tools:** Transformers library, FastText, Sentence-Transformers, spaCy
+@@ shelfwatch · computer vision @@
+- out-of-stocks and misplaced products spotted late
++ YOLO + EfficientNet on in-store edge devices, retrained from low-confidence frames
 
-### 🔍 Semantic Search Systems
 
-Traditional keyword search is limited. Semantic search understands meaning and intent.
+@@ cartmate · recommendations @@
+- new ranking ideas shipped straight to full traffic
++ two-tower retrieval + XGBoost ranker, offline replay, then an A/B test
 
-**Architecture:**
-- Vector similarity matching achieving sub-100ms latency at scale
-- Hybrid search combining traditional BM25 with semantic methods
-- Query expansion and automatic re-ranking for improved relevance
-- Approximate nearest neighbor indexing for efficiency
 
-**Stack:** Vector databases, Elasticsearch, Dense passage retrieval methods
+@@ storecast · forecasting @@
+- one global error number
++ store × sku × day forecasts, reconciled to regions, backtested by segment
 
-## Current Work
 
-Optimizing language models for resource-constrained environments without sacrificing quality. Exploring multimodal representations combining text and image understanding. Investigating cross-lingual transfer learning for low-resource languages.
+@@ formsight · document ai @@
+- form fields keyed in by hand
++ layout-aware NER → schema-validated JSON, unsure fields routed to a reviewer
+```
 
-## Philosophy
 
-Language models are the foundation of modern NLP. Understanding transformer architecture, attention mechanisms, and training dynamics is essential. But theory alone isn't enough—production systems require careful engineering, optimization, and monitoring.
+### toolbelt
 
----
 
-*Understanding language at scale.*
+<img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,opencv,fastapi,redis,docker,kubernetes,terraform,githubactions,prometheus,grafana,aws,azure,gcp&perline=16" />
+
+
+<sub>also: PEFT · DeepSpeed · Ray · vLLM · Triton · ONNX · YOLO · Hugging Face · LangGraph · MLflow · DVC · W&B · Airflow · dbt · Evidently · Spark</sub>
+
